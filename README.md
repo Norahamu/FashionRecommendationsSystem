@@ -1,15 +1,15 @@
 # FashionRecommendationProject
 
 ## Team Members
-- [Norah Almubarak]
+- Norah Almubarak
 
-- [Lama Almazyad]
+- Lama Almazyad
 
-- [Bayader Aljunduby]
+- Bayader Aljunduby
 
-- [Yara Aljasir]
+- Yara Aljasir
 
-- [Liana Almashharawi]
+- Liana Almashharawi
 
 
 ## Motivation
@@ -31,26 +31,24 @@ The dataset is available on Kaggle:
 ## Analysis & Preprocessing Steps
 The Jupyter Notebook in this repository includes the following steps:
 
-1. **Data Loading & Exploration**:
+- **Data Loading & Exploration**:
    - Importing the dataset and examining its structure.
    - Checking the distribution of categories, subcategories, labels and gender.
 
-2. **Data Visualization**:
+- **Data Visualization**:
    - Displaying sample images from the dataset.
    - Visualizing category distributions using bar charts.
    
-3. **Missing Value Analysis & Handling**:
+- **Missing Value Analysis & Handling**:
    - Identifying missing values and handling them appropriately.
    - Dropping unnecessary columns or filling missing values.
 
-4. **Data Preprocessing**:
+- **Data Preprocessing**:
    - Converting categorical labels into numerical format.
    - Normalizing image paths for easy accessibility.
    - Splitting data for training and testing purposes.
 
-5. **Conclusion & Next Steps**:
-   - Summarizing key findings from the dataset.
-   - Discussing potential next steps for model development.
+
 
 
 
