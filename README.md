@@ -24,6 +24,13 @@ The Fashion Product Images Dataset consists of images of fashion products with m
 - **Structured Data**: Includes CSV files containing image paths and their corresponding metadata.
 - **Potential Use Cases**: Image classification, and recommendation systems.
 
+## Dataset Goal
+The Fashion Product Images Dataset is designed to support innovation in the fashion industry by simplifying the development in artificial intelligence specially in machine learning and computer vision systems . 
+It contains a various collection of labeled images of fashion items that allows us to develop intelligent systems that is applicable for : 
+- Product classification by training machine learning to classify  fashion items into multiple categories such as pants, t-shirts and shoes.
+- Recommendation system by training machine learning to recommend similar fashion items based on a given image.
+This dataset not only improve automation and efficiency in fashion industry but also improve user experience throughout tailored recommendation capabilities.
+
 ## Dataset Source
 The dataset is available on Kaggle:
 [https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)
