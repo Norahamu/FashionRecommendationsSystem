@@ -15,7 +15,7 @@
 ## Motivation
 The fashion industry is a rapidly growing sector where visual representation of products plays a crucial role in consumer decision-making. We chose this dataset because it contains a diverse set of fashion product images along with their attributes, making it useful for various applications such as image classification, recommendation systems, and visual search. This dataset is valuable for research and development in AI-driven fashion solutions.
 
-#We chose this dataset because the fashion industry heavily relies on visual representation, and AI-driven solutions like image classification and recommendation systems can enhance user experience. This dataset provides a diverse set of fashion product images with metadata, making it ideal for developing machine learning models for fashion analytics, classification, and visual search.
+## We chose this dataset because the fashion industry heavily relies on visual representation, and AI-driven solutions like image classification and recommendation systems can enhance user experience. This dataset provides a diverse set of fashion product images with metadata, making it ideal for developing machine learning models for fashion analytics, classification, and visual search.
 
 ## Dataset Overview
 The Fashion Product Images Dataset consists of images of fashion products with metadata, including product categories, gender specifications, and other attributes. The dataset is useful for training machine learning models for fashion item classification and recommendation systems.
