@@ -5,7 +5,7 @@
 
 - Lama Almazyad
 
-- Bayader Aljondeby
+- Bayader Aljunduby
 
 - Yara Aljasir
 
