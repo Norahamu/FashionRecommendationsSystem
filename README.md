@@ -33,22 +33,13 @@ The dataset is available on Kaggle:
 ## Analysis & Preprocessing Steps
 The Jupyter Notebook in this repository includes the following steps:
 
-- **Data Loading & Exploration**:
-   - Importing the dataset and examining its structure.
-   - Checking the distribution of categories, subcategories, labels and gender.
-
-- **Data Visualization**:
-   - Displaying sample images from the dataset.
-   - Visualizing category distributions using bar charts.
+- **Data Loading & Exploration**
+ 
+- **Data Visualization**
    
-- **Missing Value Analysis & Handling**:
-   - Identifying missing values and handling them appropriately.
-   - Dropping unnecessary columns or filling missing values.
+- **Missing Value Analysis & Handling**
 
-- **Data Preprocessing**:
-   - Converting categorical labels into numerical format.
-   - Normalizing image paths for easy accessibility.
-   - Splitting data for training and testing purposes.
+- **Data Preprocessing**
 
 
 
