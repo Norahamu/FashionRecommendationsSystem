@@ -4,3 +4,8 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.json filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
+Supervised[[:space:]]Learning/image_features.npy filter=lfs diff=lfs merge=lfs -text
+Supervised[[:space:]]Learning/image_labels.npy filter=lfs diff=lfs merge=lfs -text
+Supervised[[:space:]]Learning/image_metadata.npy filter=lfs diff=lfs merge=lfs -text
+Supervised[[:space:]]Learning/image_paths.npy filter=lfs diff=lfs merge=lfs -text
+Supervised[[:space:]]Learning/svm_model.pkl filter=lfs diff=lfs merge=lfs -text
