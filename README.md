@@ -25,23 +25,23 @@ The **Fashion Product Images Dataset** consists of **images of fashion products 
 - **Seasonality & Other attributes**
 
 ### **Key Features**
-✔ **Product Images**: A large collection of fashion product images.  
-✔ **Metadata**: Each image is labeled with attributes such as **category, sub-category, gender, season, and usage**.  
-✔ **Structured Data**: Includes **CSV files** containing **image paths and metadata**.  
-✔ **Potential Use Cases**: **Image classification, recommendation systems, and fashion analytics**.  
+**Product Images**: A large collection of fashion product images.  
+**Metadata**: Each image is labeled with attributes such as **category, sub-category, gender, season, and usage**.  
+**Structured Data**: Includes **CSV files** containing **image paths and metadata**.  
+**Potential Use Cases**: **Image classification, recommendation systems, and fashion analytics**.  
 
 ---
 
 ## **Dataset Source**
 The dataset is available on Kaggle:  
-🔗 **[Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)**
+**[Fashion Product Images Dataset](https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset)**
 
 ---
 
 # **Data Analysis & Preprocessing**
 The **Jupyter Notebook** in this repository includes the following steps:
 
-### **🔹 Data Preprocessing Pipeline**
+### **Data Preprocessing Pipeline**
 **Data Loading & Exploration**  
 **Data Visualization** (Category distribution, gender-wise split, etc.)  
 **Missing Value Analysis & Handling**  
