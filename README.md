@@ -68,13 +68,15 @@ We trained **two different supervised models**:
 - **SVM achieved high accuracy** in fashion classification.
 
 ### **Step 4: Recommendation System**
-- Used **Cosine Similarity** to recommend similar fashion products.
+- **Predicted the category of an image using SVM**.
+- **Recommended similar products from the same category**.
 - Recommendations were based on:
   - **Brand Name**
   - **Age Group**
   - **Gender**
   - **Base Color**
   - **Season**
+
 
 
 
