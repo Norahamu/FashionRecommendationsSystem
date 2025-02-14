@@ -65,18 +65,23 @@ We trained **two different supervised models**:
 
 ### **Step 3: Model Comparison**
 - Evaluated models using **Accuracy, Precision, Recall, and F1-score**.
-- **SVM achieved high accuracy** in fashion classification.
+- MLPClassifier (Neural Network) outperformed SVM in accuracy and recall.
+-SVM had slightly better precision but was overall less effective in handling complex feature relationships.
+-MLP showed stronger ability to learn deep patterns in the extracted features.
 
 ### **Step 4: Recommendation System**
-- **Predicted the category of an image using SVM**.
-- **Recommended similar products from the same category**.
-- Recommendations were based on:
+1-Predict the product category of an image using MLPClassifier (Neural Network).
+
+2-Find similar products within the same category.
+
+3-Recommendations are based on metadata, including:
   - **Brand Name**
   - **Age Group**
   - **Gender**
   - **Base Color**
   - **Season**
 
+4-The system suggests products that match the style, color, and category preferences.
 
 
 
