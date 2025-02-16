@@ -55,64 +55,56 @@ We trained **supervised learning models** to **classify and recommend fashion pr
 
 ## **Steps in Supervised Learning**
 
-1. Feature Extraction with ResNet50 (Using Pretrained Model)
+1. **Feature Extraction with ResNet50**
+   
+   Used ResNet50, a Convolutional Neural Network (CNN) pre-trained on ImageNet.
+   
+   Extracted deep features from images without modifying ResNet50’s weights.
+   
+   Flattened the extracted feature vectors for classifier input.
+   
+   Note: ResNet50 model was trained with supervised learning on ImageNet.
 
-Used ResNet50, a Convolutional Neural Network (CNN) pre-trained on ImageNet.
+2. **Model Selection**
+   
+   Selected Support Vector Machine (SVM) and MLP (Neural Network) as classifiers.
+   
+   These models require labeled data to learn decision boundaries.
 
-Extracted deep features from images without modifying ResNet50’s weights.
+3. **Model Training**
+   
+   Trained both SVM and MLP using labeled extracted features.
+   
+   Optimized hyperparameters to improve classification accuracy.
 
-Flattened the extracted feature vectors for classifier input.
+4. **Model Evaluation**
+   
+   Evaluated classification performance on the test dataset (with known labels).
+   
+   Metrics used:
+   
+   - Accuracy
+   - Precision, Recall, F1-score
+   - Confusion Matrix Analysis
 
-Note: ResNet50 model was  trained with supervised learning on ImageNet.
+5. **Fashion Product Recommendation**
+   
+   Used classification results to recommend similar products.
+   
+   Analyzed feature embeddings to suggest visually similar items from the same predicted category.
 
-2. Model Selection 
+## **Model Performance Comparison**
 
-Selected Support Vector Machine (SVM) and MLP (Neural Network) as classifiers.
+1. **Support Vector Machine (SVM)**
+   
+   - **Accuracy:** 97.07%
+   - **Classification Report:**
+     
+     High precision and recall across categories.
 
-These models require labeled data to learn decision boundaries.
-
-3. Model Training 
-
-Trained both SVM and MLP using labeled extracted features.
-
-Optimized hyperparameters to improve classification accuracy.
-
-4. Model Evaluation
-
-Evaluated classification performance on the test dataset (with known labels).
-
-Metrics used:
-
-Accuracy
-
-Precision, Recall, F1-score
-
-Confusion Matrix Analysis
-
-5. Fashion Product Recommendation
-6. 
-Used classification results to recommend similar products.
-
-Analyzed feature embeddings to suggest visually similar items from the same predicted category.
-
-**Model Performance Comparison**
-
-1. Support Vector Machine (SVM)
-
-Accuracy: 97.07%
-
-Classification Report:
-
-High precision and recall across categories.
-
-2. Multi-Layer Perceptron (MLP Classifier - Neural Network)
-
-Accuracy: 79.24%
-
-Comparison:
-
-SVM outperformed MLP in accuracy.
-
-
-
-
+2. **Multi-Layer Perceptron (MLP Classifier - Neural Network)**
+   
+   - **Accuracy:** 79.24%
+   - **Comparison:**
+     
+     SVM outperformed MLP in accuracy.
